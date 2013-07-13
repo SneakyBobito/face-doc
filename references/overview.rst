@@ -30,7 +30,7 @@ What Face does not
 * Face doesn't doesn't try to persist all your data under a complex layer of functionnalities
 * Face doesn't load more datas that you asked him to do
 * Face doesn't try to hide you what he does
-* Face doesn't need you to put public properies, you may (and i personnaly recommand it) use protected or private properties
+* Face doesn't need you to put public properies, you may use protected or private properties
 
 
 Why Face ?
@@ -44,4 +44,3 @@ Also most of them want you to extend your entity classes with their one classes.
 
 And there is Face, neither a full and complexe AllInOne ORM, nor a minimalistic ORM that can't join data together. Face uses faces to understand how your entities are done, faces are implemented by one and only one trait that once configured will give a face to your entity. Once your object has a face, Face ORM will be able to play with it. Your object wont have to inherit any EntityBaseClass or to use painfull programing nightmare Annotations.
 
-Also Face loves sql, and he loves people loving sql, then you can write almost raw sql using FaceQL. He will every do what you asked him to do. If you ask him for 1 query with 2 join, he will do 1 query with 2 joins. Ho yes, i forgot, also Face can speak with you, just ask him kindly. ;)
