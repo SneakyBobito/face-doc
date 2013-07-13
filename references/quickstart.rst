@@ -8,7 +8,7 @@ TODO : detailled section
 For these examples, we need a sql database. You may import the sample .sql file that we made just for you : TODO lemons.sql
 
 Configure Face
-==============
+--------------
 
 You said configure ? Why ? Face doesn't need any specific configuration. 
 
@@ -16,7 +16,7 @@ It just will work with a PDO object and some entities that you configured for yo
 
 
 Installation
-=============
+------------
 
 Use composer with the package "face/face": "dev-master"
 
@@ -25,14 +25,13 @@ For detailled informations : TODO : link to installation page
 
 
 Creating your Entity
-====================
+--------------------
 
 For this example we are going to play with a Tree object. This tree has an id and an age. That's all.
 
 Look at the Tree entity :
 
-.. highlight:: c
-    :linenothreshold: 5
+.. code-block:: php
 
     <?php
     class Tree {
@@ -70,12 +69,11 @@ Look at the Tree entity :
 
 
 Retrieve the entity from the Database
-=====================================
+-------------------------------------
 
 Let's assume we have a mysql database with a table "tree" with 2 columns : "age" and "id" :
 
-.. highlight:: c
-    :linenothreshold: 5
+.. code-block:: php
 
     <?php
      
@@ -100,15 +98,14 @@ That's all ? Yes that's all, for a simple query like this, you only two lines in
 
 
 
-Now let's join a Lemon
-=======================
+Join elements together
+----------------------
 
 A tree is cool, but alone it is sick, dont you prefer a lemon tree ? 
 
 Firstly update the Tree class : add lemons
 
-.. highlight:: c
-    :linenothreshold: 5
+.. code-block:: php
     
     <?php
     class Tree {
@@ -163,8 +160,7 @@ Firstly update the Tree class : add lemons
 
 Now we need to create the Lemon class :
 
-.. highlight:: c
-    :linenothreshold: 5
+.. code-block:: php
 
     class Lemon {
 
@@ -217,8 +213,7 @@ Now we need to create the Lemon class :
 Query the lemons and the tree together !
 Oh and wait, we also only want Trees that have less than 6 years 
 
-.. highlight:: c
-    :linenothreshold: 5
+.. code-block:: php
 
     <?php
      

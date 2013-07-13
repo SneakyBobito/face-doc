@@ -10,7 +10,7 @@ Here is a quick overview of what face is
 
 
 What Face does
-==============
+--------------
 
 * Face is an ORM using php5.4 traits for Sql databases
 * Face is adaptable to your code
@@ -22,7 +22,7 @@ What Face does
 
 
 What Face does not
-====================================
+------------------
 
 * Face doesn't try to overload your code
 * Face doesn't want to be a full featured ORM that will do all the job
@@ -34,7 +34,7 @@ What Face does not
 
 
 Why Face ?
-==========
+----------
 
 Yes, there are already a bunch of ORM for PHP, but only a few are really ok.
 Some of them try to do all the job, they become complexe and are pain for the resources consumption, also they are complexe to set up and they are definitively not adapted for little projects.
