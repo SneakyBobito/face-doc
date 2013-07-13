@@ -6,15 +6,21 @@
 Welcome to Face's documentation!
 ================================
 
-Contents:
+Face is an ORM built under php5.4.
+
+It is neither a micro ORM, nor a full featured ORM, we may place it in the middle.
+
+Most of all, Face is the first ORM that use php5.4's trait instead of extending your classes !
+
+
+
+Table of contents
+==================
 
 .. toctree::
    :maxdepth: 2
 
-
-
-Indices and tables
-==================
+   references/overview
 
 * :ref:`genindex`
 * :ref:`modindex`
