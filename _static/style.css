@@ -18,6 +18,26 @@ li {
     line-height: 24px;
 }
 
+#body{
+    width:900px;
+    margin: auto;
+}
+
+#header{
+    margin-bottom:5px;
+    position: relative;
+}
+
+#title-block{
+    background:#F4F4F4;
+    width: 287px;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+}
+
+
 #nav-main {
     background-color: #2C2C2C;
     background-image: -moz-linear-gradient(center top , #333333, #222222);
