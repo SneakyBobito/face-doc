@@ -38,7 +38,7 @@ ENGINE = InnoDB;
 CREATE  TABLE IF NOT EXISTS `lemon-test`.`seed` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `lemon_id` INT NOT NULL ,
-  `fertil` VARCHAR(45) NULL ,
+  `fertil` TINYINT NOT NULL ,
   INDEX `fk_seed_lemon1` (`lemon_id` ASC) ,
   PRIMARY KEY (`id`) ,
   CONSTRAINT `fk_seed_lemon1`
