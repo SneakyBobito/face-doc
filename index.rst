@@ -16,8 +16,9 @@ You are free to use inheritance as you want while your `faces` remain like your 
 
 .. note::
 
-    Be aware that face is still in early beta testing. Some component are still not ready and some functionalities may drasticaly change on the master branche.
-    Face is not ready for production purpose.
+    Be aware that face is still in early **beta testing**. Some component are still not ready and some functionalities may drasticaly change on the master branche.
+
+    Face is **not** ready for production purpose.
 
 
 
@@ -31,6 +32,7 @@ Table of contents
 
    installation/stand_alone
    installation/generation
+   usage/basics
 
 
 
