@@ -170,26 +170,7 @@
 <body>
 <div id="wrapper">
 
-    <div class="size-wrap">
 
-        <div class="header clear-fix">
-            <a class="header-logo" href="http://phalconphp.com"><span class="logo-text">Phalcon</span></a>
-            <div class="header-right">
-                <iframe src="http://ghbtns.com/github-btn.html?user=phalcon&amp;repo=cphalcon&amp;type=watch&amp;count=true&amp;size=large"
-                        allowtransparency="true" frameborder="0" scrolling="0" width="152px" height="30px"></iframe>
-            </div>
-            <ul class="header-nav">
-                <li><a href="http://phalconphp.com/" class="header-nav-link">Home</a></li>
-                <li><a href="http://phalconphp.com/download" class="header-nav-link">Download</a></li>
-                <li><a href="http://forum.phalconphp.com/" class="header-nav-link active">Forum</a></li>
-                <li><a href="http://blog.phalconphp.com/" class="header-nav-link">Blog</a></li>
-                <li><a href="http://phalconphp.com/support" class="header-nav-link">Support</a></li>
-                <li><a href="http://store.phalconphp.com/" class="header-nav-link">Store</a></li>
-                <li><a href="https://github.com/phalcon/cphalcon" class="header-nav-link">GitHub</a></li>
-            </ul>
-        </div>
-
-    </div>
 
     {%- block header %}{% endblock %}
 
@@ -199,7 +180,7 @@
 
     <table width="90%" align="center">
         <tr>
-            {%- block sidebar2 %}{{ sidebar() }}{% endblock %}
+            {%- block sidebar2 %}{% endblock %}
             <td class="second-box" valign="top">
                 <div class="document">
                     {%- block document %}
