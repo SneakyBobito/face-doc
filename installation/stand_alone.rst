@@ -1,4 +1,4 @@
-Stand alone instalation
+Standalone installation
 ========
 
 This section explains how to install Face in a new project.

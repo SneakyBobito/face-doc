@@ -19,13 +19,13 @@ A sql script including some data identical to the one used for the following exa
 We consider that you know how to generate the models for your project. If no, then have a look at the :doc:`models generations <../installation/generation>` section
 
 
-All the following examples include the ``$pdo`` variable already instantiated :
+All the following examples include the ``$pdo`` variable to be already instantiated :
 
 .. code-block:: php
 
     <?php
 
-    // All Face access to the database are made through a PDO object
+    // All access to the database are made through a PDO object
     $pdo = new PDO('mysql:host=localhost;dbname=lemon-test', 'root', 'root');
 
 

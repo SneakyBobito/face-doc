@@ -2,16 +2,16 @@ Generation
 ========
 
 
-The hardest work when you use an orm is to prepare your models that you already have prepared in your database.
+The hardest work when you use an orm is to prepare your models that you have already prepared in your database.
 
 Obviously Face is not an exception, you will have to map your model classes with your database.
 
 We are aware that it is a repetitive work and that's why we try to place a constant effort to avoid this work.
 
-Actually Face offers a tool that will generate your models for you : `Face-Embryo`_.
+Face offers a tool that will generate your models for you : `Face-Embryo`_.
 
 Embryo will generate  some .php files for you and Face will use these php files.
-In this way you can start a project even with a weak knowledge of Face. You just will have to know how to write queries.
+In this way you can start a project even if you have only weak knowledge of Face. You just will have to know how to write queries.
 
 We really encourage you to use Embryo. It will help to start your projects faster.
 
