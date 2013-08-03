@@ -10,12 +10,6 @@
 {%- macro relbar() %}
 <div class="related">
     <ul>
-        {%- for rellink in rellinks %}
-        <li class="right" {% if loop.first %}{% endif %}>
-        <a href="{{ pathto(rellink[0]) }}" title="{{ rellink[1]|striptags }}"
-        {{ accesskey(rellink[2]) }}>{{ rellink[3] }}</a>
-        {%- if not loop.first %}{{ reldelim2 }}{% endif %}</li>
-        {%- endfor %}
         {%- block rootrellink %}
         <li><a href="http://phalconphp.com">Home</a> &raquo;</li>
         <li><a href="{{ pathto(master_doc) }}">{{ shorttitle|e }}</a>{{ reldelim1 }}</li>
@@ -43,7 +37,7 @@
     {%- endif %}
     <title>{{ title|striptags }}{{ titlesuffix }}</title>
     <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=Amaranth|Inconsolata|Ubuntu:400,500,700,300italic,400italic,500italic&amp;subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Amaranth|Inconsolata' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ pathto('_static/style.css', 1) }}" type="text/css" />
     <link rel="stylesheet" href="{{ pathto('_static/docs.css', 1) }}" type="text/css" />
 
