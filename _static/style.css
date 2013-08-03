@@ -195,10 +195,10 @@ p{
 .admonition{
     border:1px dotted #BBB;
     margin: 5px;
-    padding:5px;
+    padding:1px 5px 5px 5px;
 }
 
-admonition-title{
+.admonition-title{
     font-weight: bold;
     border-bottom: 1px dotted #BBB;
 }
