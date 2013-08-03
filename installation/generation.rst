@@ -5,18 +5,19 @@ Generation
 The hardest work when you use an orm is to prepare your models that you already have prepared in your database.
 
 Obviously Face is not an exception, you will have to map your model classes with your database.
-But we are aware that it is a repetitive work and we try to place a constant effort to avoid this work.
 
-That's why Face offers a tool that will generate your models for you : `Face-Embryo`_.
+We are aware that it is a repetitive work and that's why we try to place a constant effort to avoid this work.
 
-Embryo is a tool that will generate  some .php files for you. Face will use these php files.
+Actually Face offers a tool that will generate your models for you : `Face-Embryo`_.
+
+Embryo will generate  some .php files for you and Face will use these php files.
 In this way you can start a project even with a weak knowledge of Face. You just will have to know how to write queries.
 
 We really encourage you to use Embryo. It will help to start your projects faster.
 
-Note that for the moment Embryo only works with mysql.
+Note : for the moment Embryo only works with MySQL.
 
-If you are using one of our skeletons, embryo is already present into the skeleton and ready for use. Refer to the appropriate section
+Note 2 : If you are using one of our framework skeleton, embryo is already present into the skeleton and ready for use. Refer to the appropriate section
 
 Install Embryo
 -----------
@@ -45,11 +46,12 @@ You can to generate your models :
     php face-embryo/embryo -u user -p password -d database generate -o ./models
 
 Replace "user" by the username of the database, "password" by the password of the user and "database" by the name of the database where your tables live.
-The option "-o"  means "output", then the models will be generate into the models dir we just have created.
+The option "-o"  means "output", it is the where the models will be generated.
 
 After typing this command you will be prompted for "yes or no" everytime a foreign key exists.
 In fact embryo needs to know if your relation is hasOne or hasMany. Most of time it will be "hasMany", if so just leave blank and press enter or else write "n" and press enter.
 
+You can check all has been generating : look at the `models` dir, you should have some .php files matching with your db tables.
 
 Note : support for namespaces is under construction
 

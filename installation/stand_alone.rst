@@ -11,7 +11,7 @@ Requirements
 --------------
 
 * **PHP 5.4** or later
-* A **mysql** database. For the moment only MySQL is supported. Because we are fan of open sources project, we recommand you to use **`MariaDB`_** . PostgreSQL and SQLite will be supported in next versions.
+* A **mysql** database. For the moment only MySQL is supported. Because we are fan of open sources project, we recommand you to use `MariaDB`_ . PostgreSQL and SQLite will be supported in next versions.
 * The **peek** library that will be downloaded automatically with composer
 * **PDO** that is natively available in standard PHP 5.4 or later
 
@@ -20,7 +20,7 @@ Requirements
 Installation
 --------------
 
-Face uses **`composer`_**.
+Face uses `composer`_.
 
 To use composer start by creating a file named `composer.json` at the root of your project.
 Fill it with the following content :
