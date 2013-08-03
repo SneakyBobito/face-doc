@@ -192,7 +192,16 @@ p{
     text-align: right;
 }
 
+.admonition{
+    border:1px dotted #BBB;
+    margin: 5px;
+    padding:5px;
+}
 
+admonition-title{
+    font-weight: bold;
+    border-bottom: 1px dotted #BBB;
+}
 
 
 
