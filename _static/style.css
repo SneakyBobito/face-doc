@@ -201,6 +201,10 @@ td.second-box li.toctree-l1 a {
     margin-bottom: 0em;
 }
 
+toctree-l1>ul{
+    margin-left: 10px;
+}
+
 td.primary-box {
     padding: 10px;
     padding-right: 20px;
