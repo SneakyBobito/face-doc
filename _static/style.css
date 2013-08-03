@@ -61,6 +61,7 @@ li {
 }
 
 h1,h2,h3{
+    font-family: 'Amaranth', arial, sans-serif;
     font-weight: normal;
 }
 
@@ -69,6 +70,7 @@ h1{
     color: #bababa;
     margin-bottom: 8px;
 }
+
 
 h2,h3{
     color: #1a1a1a;
@@ -90,30 +92,9 @@ h3{
     text-align: right;
 }
 
-h2 {
-    font-style: bold;
-    letter-spacing: normal;
-    font-size: 24px;
-    line-height: 24px;
-    font-weight: 400;
-    margin: 25px 0 0;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #c0c0c0;
-}
 
-h3 {
-    font-size: 22px;
-    font-style: normal;
-    margin: 15px 0 10px;
-    font-weight: normal;
-    border-bottom: 1px solid #c0c0c0;
-}
 
-h4 {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-}
+
 
 /*p, li {
 	color: #434343;

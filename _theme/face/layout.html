@@ -75,22 +75,9 @@
     {%- if hasdoc('genindex') %}
     <link rel="index" title="{{ _('Index') }}" href="{{ pathto('index') }}" />
     {%- endif %}
-    {%- if hasdoc('search') %}
-    <link rel="search" title="{{ _('Search') }}" href="{{ pathto('search') }}" />
-    {%- endif %}
-    {%- if hasdoc('copyright') %}
-    <link rel="copyright" title="{{ _('Copyright') }}" href="{{ pathto('copyright') }}" />
-    {%- endif %}
-    <link rel="top" title="{{ docstitle|e }}" href="{{ pathto('index') }}" />
-    {%- if parents %}
-    <link rel="up" title="{{ parents[-1].title|striptags }}" href="{{ parents[-1].link|e }}" />
-    {%- endif %}
-    {%- if next %}
-    <link rel="next" title="{{ next.title|striptags }}" href="{{ next.link|e }}" />
-    {%- endif %}
-    {%- if prev %}
-    <link rel="prev" title="{{ prev.title|striptags }}" href="{{ prev.link|e }}" />
-    {%- endif %}
+
+
+
     {%- endblock %}
     {%- block extrahead %} {% endblock %}
 </head>
