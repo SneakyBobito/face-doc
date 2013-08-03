@@ -15,9 +15,13 @@ In this way you can start a project even with a weak knowledge of Face. You just
 
 We really encourage you to use Embryo. It will help to start your projects faster.
 
-Note : for the moment Embryo only works with MySQL.
+.. note::
 
-Note 2 : If you are using one of our framework skeleton, embryo is already present into the skeleton and ready for use. Refer to the appropriate section
+    For the moment Embryo only works with MySQL.
+
+.. note::
+
+    If you are using one of our framework skeleton, embryo is already embeded into the skeleton and ready for use. Please refer to the appropriate section
 
 Install Embryo
 -----------
@@ -53,7 +57,9 @@ In fact embryo needs to know if your relation is hasOne or hasMany. Most of time
 
 You can check all has been generating : look at the `models` dir, you should have some .php files matching with your db tables.
 
-Note : support for namespaces is under construction
+.. note::
+
+    support for namespaces is under construction
 
 
 

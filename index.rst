@@ -14,8 +14,12 @@ That's why we recommand you to use it for little or medium sized projetcs.
 Most of all, Face is the first ORM that use php5.4's trait instead of extending your classes !
 You are free to use inheritance as you want while your `faces` remain like your database schemas.
 
-Be aware that face is still in early beta testing. Some component are still not ready and some functionalities may drasticaly change on the master branche.
-Face is not ready for production purpose.
+.. note::
+
+    Be aware that face is still in early beta testing. Some component are still not ready and some functionalities may drasticaly change on the master branche.
+    Face is not ready for production purpose.
+
+
 
 
 
@@ -26,5 +30,12 @@ Table of contents
    :maxdepth: 4
 
    installation/stand_alone
+   installation/generation
 
 
+
+
+
+
+
+The documentation is permanently moving. If you find some typos or obscures passages, you can correct them on github.
