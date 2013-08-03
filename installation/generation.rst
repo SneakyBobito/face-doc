@@ -21,7 +21,7 @@ We really encourage you to use Embryo. It will help to start your projects faste
 
 .. note::
 
-    If you are using one of our framework skeleton, embryo is already embeded into the skeleton and ready for use. Please refer to the appropriate section
+    If you are using one of our framework skeleton, then embryo is already embeded into the skeleton and ready for use. Please refer to the appropriate section
 
 Install Embryo
 -----------

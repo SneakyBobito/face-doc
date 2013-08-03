@@ -16,12 +16,14 @@ All the examples use the following model :
 
 A sql script including some data identical to the one used for the following examples is available here : :download:`lemon-model.sql <../resources/lemon-model.sql>`.
 
-We consider that you know how to generate the models for your project. If no have a look at the :doc:`models generations <../installation/generation>` section
+We consider that you know how to generate the models for your project. If no, then have a look at the :doc:`models generations <../installation/generation>` section
 
 
 All the following examples include the ``$pdo`` variable already instantiated :
 
 .. code-block:: php
+
+    <?php
 
     // All Face access to the database are made through a PDO object
     $pdo = new PDO('mysql:host=localhost;dbname=lemon-test', 'root', 'root');
@@ -37,6 +39,8 @@ Simple Select
 .............
 
 .. code-block:: php
+
+    <?php
 
     // create a query to find all trees in the database
     $fQuery = Tree::faceQueryBuilder();
@@ -63,6 +67,8 @@ Face offers a SQL like way to write where clauses. You just have to add a tilde 
 
 .. code-block:: php
 
+    <?php
+
     // create a query to find all trees that have 5 years or more
     $fQuery = Tree::faceQueryBuilder();
     $fQuery->where("~age >= :age");
@@ -87,6 +93,8 @@ You can join elements just by their path. Usually it will be the property name o
 
 .. code-block:: php
 
+    <?php
+
     // create a query to find all trees and join the lemons
     $fQuery = Tree::faceQueryBuilder();
     $fQuery->join("Lemon");
@@ -108,9 +116,11 @@ You can join elements just by their path. Usually it will be the property name o
 Select + Join + Where
 .............
 
-Once you have joined entites, you can do deeper where clauses. See :
+Once you have joined entities, you can do deeper where clauses. See :
 
 .. code-block:: php
+
+    <?php
 
     $fQuery = Tree::faceQueryBuilder()
         ->join("Lemon")
