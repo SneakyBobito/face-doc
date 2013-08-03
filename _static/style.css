@@ -163,20 +163,20 @@ p{
     line-height: 18px;
 }
 
-#content h1,#content h2,#content h3{
+.document h1,.document h2,.document h3{
     text-align: left;
     margin-top:15px;
 }
 
-#content h1{
+.document h1{
     font-size: 20px;
 }
 
-#content h2{
+.document h2{
     font-size:18px
 }
 
-#content h3{
+.document h3{
     font-size:15px
 }
 
