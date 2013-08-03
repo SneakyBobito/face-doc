@@ -198,36 +198,21 @@
 
     </div>
 
-    {%- block header %}{% endblock %}
 
     {%- block relbar1 %}{{ relbar() }}{% endblock %}
 
-    {%- block sidebar1 %} {# possible location for sidebar #} {% endblock %}
 
-    <table width="90%" align="center">
-        <tr>
-            {%- block sidebar2 %}{% endblock %}
-            <td class="second-box" valign="top">
-                <div class="document">
-                    {%- block document %}
-                    <div class="documentwrapper">
-                        {%- if not embedded %}{% if not theme_nosidebar|tobool %}
-                        <div class="bodywrapper">
-                            {%- endif %}{% endif %}
-                            <div class="body" {% if theme_nosidebar|tobool %}style="margin: auto;"{% endif %}>
-                            {% block body %} {% endblock %}
-                        </div>
-                        {%- if not embedded %}{% if not theme_nosidebar|tobool %}
-                    </div>
-                    {%- endif %}{% endif %}
-                </div>
+
+        <div class="document">
+            {%- block document %}
+
+                    {% block body %} {% endblock %}
+
                 {%- endblock %}
-</div>
-</td>
-</tr>
-</table>
+        </div>
 
-{%- block relbar2 %}{{ downrelbar() }}{% endblock %}
+
+
 
 {%- block footer %}
 <div id="footer">
