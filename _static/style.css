@@ -165,19 +165,21 @@ p{
 
 .document h1,.document h2,.document h3{
     text-align: left;
-    margin-top:15px;
+    margin-top:30px;
+    margin-bottom:15px;
+    border-bottom: 1 px solid #DDD;
 }
 
 .document h1{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .document h2{
-    font-size:18px
+    font-size:25px
 }
 
 .document h3{
-    font-size:15px
+    font-size:20px
 }
 
 #nav-main {
