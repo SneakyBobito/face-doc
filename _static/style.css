@@ -788,8 +788,10 @@ input[type="submit"] {
 }
 
 blockquote {
-    border-left: 3px solid #0ec281;
+    border-left: 3px solid #C9C9C9;
     background: #f2f2f2;
+    margin: 20px;
+    padding: 1px 0;
 }
 
 .header-line {
@@ -826,6 +828,7 @@ blockquote {
     border-radius: 3px;
     background: #F8F8F8;
     font-size: 13px;
+    padding: 0 3px 1px;
 }
 
 .highlight  { background: #242424; color: #f6f3e8; padding:5px 10px;}
