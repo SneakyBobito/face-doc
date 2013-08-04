@@ -284,7 +284,6 @@ From now we can do the following :
     <?php
 
     // we have retrieved some trees from the db. $tree is one of them
-
     $tree->getLemons();
 
 
