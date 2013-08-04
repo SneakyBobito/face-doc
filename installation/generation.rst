@@ -2,7 +2,7 @@ Generation
 ========
 
 
-The hardest work when you use an orm is to prepare your models that you have already prepared in your database.
+The hardest work when you use an orm is to prepare the models that you have already prepared in your database.
 
 Obviously Face is not an exception, you will have to map your model classes with your database.
 

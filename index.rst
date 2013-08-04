@@ -32,6 +32,7 @@ Table of contents
 
    installation/stand_alone
    installation/generation
+   usage/core
    usage/basics
 
 
