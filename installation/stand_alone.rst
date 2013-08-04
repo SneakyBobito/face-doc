@@ -11,10 +11,13 @@ Requirements
 --------------
 
 * **PHP 5.4** or later
-* A **mysql** database. For the moment only MySQL is supported. Because we are fan of open sources project, we recommand you to use `MariaDB`_ . PostgreSQL and SQLite will be supported in next versions.
+* A **mysql** database. For the moment only MySQL is supported. PostgreSQL and SQLite will be supported in next versions.
 * The **peek** library that will be downloaded automatically with composer
 * **PDO** that is natively available in standard PHP 5.4 or later
 
+.. note::
+
+    Because we are fan of open source projects, we recommand you to use `MariaDB`_  instead of MySQL. It is compatible with MySQL and it also is faster.
 
 
 Installation
