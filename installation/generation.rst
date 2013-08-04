@@ -32,7 +32,7 @@ Before generating your models you need a mysql database ready for use. It means 
 
 Now download or clone the sources from github : https://github.com/laemons/face-embryo at the root of your project
 
-.. code-block::
+.. code-block:: php
 
     cd root/of/your/project
     git clone https://github.com/laemons/face-embryo.git
@@ -45,7 +45,7 @@ Embryo is ready, now create a directory named `models` at the root of your appli
 
 You can to generate your models :
 
-.. code-block::
+.. code-block:: php
 
     php face-embryo/embryo -u user -p password -d database generate -o ./models
 
