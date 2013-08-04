@@ -160,6 +160,10 @@ p{
     margin: 10px 0;
 }
 
+.document{
+    margin-top:-20px;
+}
+
 .document h1,.document h2,.document h3{
     text-align: left;
     margin-top:30px;
@@ -279,22 +283,24 @@ a.headerlink {
 }
 
 div.related {
-    padding-top: 5px;
-    padding-bottom: 15px;
+    padding-top: 15px;
     height: 25px;
     color: #f2f2f2;
 }
 
 div.related li {
     float: left;
-    padding-right: 20px;
+    padding-right: 5px;
     list-style: none outside none;
+    font-size: 13px;
     color: #717171;
 }
 
+
+
 div.related a {
     color: #000;
-    font-size: 17px;
+    font-size: 13px;
     text-decoration: none;
 }
 
