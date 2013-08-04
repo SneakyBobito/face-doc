@@ -4,15 +4,16 @@ Face Core
 
 Although Face offers a generator to start your project, it is important to know how it works.
 
-This section describe the core of face.
+This section describes the core of face.
 
 
 Class and Database
 ------------------
 
-Face is an ORM, it will map your class with Database **Tables** and properties with **Columns**
+Face is an ORM, it will map **Classes** with Database **Tables** and **Properties** with **Columns**
 
-Lets think that in the database we have a Table named ``tree``. This table has 2 columns : ``id`` and ``age`` ; ``id`` is an auto-incremented primary key and ``age`` is ssimply the age of the tree.
+Begin the example with the following : in the database we have a Table named ``tree``. This table has 2 columns :
+``id`` and ``age`` ; ``id`` is an auto-incremented primary key and ``age`` is simply the age of the tree.
 
 We will have the following class matching to the db :
 

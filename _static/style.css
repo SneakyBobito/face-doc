@@ -819,21 +819,13 @@ blockquote {
     font-weight: 500;
 }
 
-.donate-wrap {
-    margin: 10px 0;
-    padding: 15px 0;
-    border-color: #c0c0c0;
-    border-width: 1px;
-    border-style: solid none;
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: bold;
-    text-align: center;
-}
 
-.donate-wrap .button,
-.donate-wrap a {
-    margin: 0 10px;
+
+.pre{
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    background: #F8F8F8;
+    font-size: 13px;
 }
 
 .highlight  { background: #242424; color: #f6f3e8; padding:5px 10px;}
