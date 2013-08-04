@@ -22,10 +22,6 @@ body {
     line-height: 1;
 }
 
-ol, ul {
-    list-style: none;
-}
-
 blockquote, q {
     quotes: none;
 }
@@ -277,7 +273,7 @@ div.section {
 }
 
 a.headerlink {
-    color: #dadada;
+    color: #E4E4E4;
     font-size: 18px;
     margin-left: 10px;
 }
@@ -300,7 +296,6 @@ div.related a {
     color: #000;
     font-size: 17px;
     text-decoration: none;
-    border-bottom: 1px dashed #9a9a9a;
 }
 
 div.related li.right {
