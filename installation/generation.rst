@@ -49,6 +49,7 @@ You can to generate your models :
 
     php face-embryo/embryo -u user -p password -d database generate -o ./models
 
+
 Replace "user" by the username of the database, "password" by the password of the user and "database" by the name of the database where your tables live.
 The option "-o"  means "output", it is the where the models will be generated.
 
