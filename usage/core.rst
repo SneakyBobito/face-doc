@@ -79,7 +79,7 @@ See :
 
 
 The method ``__getEntityFace`` returns an array. This array explains your class. As you can see we specified the ``sqlTable`` key with the value ``tree``.
-It means that the class is mapped with the table ``tree``
+It means that the class is mapped with the table ``tree``.
 
 
 
@@ -88,7 +88,7 @@ Map your properties with columns
 
 At this point, face knows that the tree class is mapped with the sql table "tree". But any column is mapped. Indeed we also have to explain which columns are mapped.
 
-The following example shows how you can map the properties with the table columns :
+The following example shows how you can map the **properties** with the **columns** :
 
 .. code-block:: php
 
@@ -105,15 +105,13 @@ The following example shows how you can map the properties with the table column
 
         */
 
-        // we use the EntityFaceTrait, this is the core of face.
-        // without it Face cant work with the class.
         use \Face\Traits\EntityFaceTrait;
 
-        // when we sue the EntityFaceTrait, then we have to implement the following function
         public static function __getEntityFace() {
             return [
                 "sqlTable"=>"tree",
 
+                // Add some elements
                 "elements"=>[
 
                     "id"=>[
@@ -122,7 +120,7 @@ The following example shows how you can map the properties with the table column
                             "columnName" => "id",
                             "isPrimary"  => true,
                         ],
-                    ]
+                    ],
 
                     "age"=>[
                         "property"=>"age",
@@ -139,7 +137,7 @@ The following example shows how you can map the properties with the table column
 
 We added the key ``elements``. This is the list of mapped properties.
 
-There is two things to know :
+There is a few things to know :
 
  * Each element must match with a valid property of the class.
  * Each element has an unique name. The name is specified by the key.
@@ -189,7 +187,8 @@ Let's use a second table in the database : the ``lemon`` table. This table has 2
 
     }
 
-In this example you maybe have noticed that we only specified  ``tree_id`` as a string and we have omitted params for the ``id`` .
+In this example you may have noticed that we only specified  ``tree_id`` as a string.
+
 It is not a mistake, this is convenient shortcuts.
 
 It is identical to :
@@ -211,7 +210,8 @@ It is identical to :
                 ],
 
 Now we have a Lemon class and we want to link it to the Tree.
-We have to modify the tree class by adding a ``lemon`` property and says to face how to join the classes.
+
+We have to modify the ``Tree`` class by adding a ``Lemons`` property then we will say to face how to join the classes together.
 
 
 .. code-block:: php
@@ -238,6 +238,7 @@ We have to modify the tree class by adding a ``lemon`` property and says to face
 
         public static function __getEntityFace() {
             return [
+
                 "sqlTable"=>"tree",
 
                 "elements"=>[
@@ -246,9 +247,9 @@ We have to modify the tree class by adding a ``lemon`` property and says to face
                         "sql"=>[
                             "isPrimary"  => true,
                         ],
-                    ]
+                    ],
 
-                    "age"
+                    "age",
 
                     // ADD THE LEMON ELEMENT
                     "Lemons"=>[
@@ -282,7 +283,7 @@ From now we can do the following :
 
     <?php
 
-    // we have retrieved some tress from the db. $tree is one of them
+    // we have retrieved some trees from the db. $tree is one of them
 
     $tree->getLemons();
 
@@ -294,13 +295,6 @@ But in some cases it is really convenient to be able to do this :
 
     <?php
 
-
-    $lemons = $tree->getLemons();
-
-    $lemon = $lemons[0]
-
-    /* some code .... */
-
     // we would like to get the parent from the child
     $lemon->getTree();
 
@@ -308,7 +302,10 @@ But in some cases it is really convenient to be able to do this :
 This is real advantage of Face, it can do relations in both directions  in the same time : Parent => Children & Child => Parent
 
 
-How to proceed ? It's very straightforward ! We have to add a tree property on the Lemon (like we did add the lemons property on the tree):
+
+How to proceed ?
+
+It's very straightforward ! We have to add a ``Tree`` property on the ``Lemon`` (like we did add the lemons property on the tree):
 
 
 .. code-block:: php
