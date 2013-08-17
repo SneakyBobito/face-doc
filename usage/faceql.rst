@@ -55,8 +55,8 @@ Example of a more complex FaceQL query :
        "SELECT::* FROM::Tree "
       ."JOIN::lemons "
       ."WHERE ~lemons.mature = 1"
-      ."GROUP BY ~lemon.id "
-      ."HAVING count(~lemon.id) > 5";
+      ."GROUP BY ~lemons.id "
+      ."HAVING count(~lemons.id) > 5";
 
 
 Using the parser
@@ -91,6 +91,6 @@ UPDATE DELETE INSERT
 ----------------------
 
 
-For the moment FaceQL is being tested, a kind of alpha test.
+Right now FaceQL is being tested, a kind of alpha test.
 
 Update delete and insert will be provided in a very few times.
