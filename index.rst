@@ -34,7 +34,7 @@ Table of contents
    installation/generation
    usage/core
    usage/basics
-
+   usage/faceql
 
 
 
