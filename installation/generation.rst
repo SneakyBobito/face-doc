@@ -48,7 +48,7 @@ You can to generate your models :
 
 .. code-block:: php
 
-    php face-embryo/embryo -u user -p password -d database generate -o ./models
+    php face-embryo/embryo models -u user -p password -d database generate -o ./models
 
 
 Replace "user" by the username of the database, "password" by the password of the user and "database" by the name of the database where your tables live.
