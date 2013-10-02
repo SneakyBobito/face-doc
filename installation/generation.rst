@@ -36,6 +36,7 @@ Now download or clone the sources from github : https://github.com/laemons/face-
 
     cd root/of/your/project
     git clone https://github.com/laemons/face-embryo.git
+    // cd to ./face-embryo and run install composer dependancies
 
 
 Generate from database
