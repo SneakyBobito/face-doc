@@ -6,39 +6,8 @@
 Welcome to Face's documentation!
 ================================
 
-Face is an ORM built under php5.4.
+Face is an ORM built under php5.4. It is aimed to be flexible and to provide powerful features to abstract and normalize database interactions.
 
-It is neither a micro ORM, nor a full featured ORM, we would place it in the middle.
-That's why we recommand you to use it for little or medium sized projetcs.
+In the latest weeks face has known a lot of refactoring. The doc was not anymore relevant and has been temporally closed until the new doc is written.
 
-Most of all, Face is the first ORM that use php5.4's trait instead of extending your classes !
-You are free to use inheritance as you want while your `faces` remain like your database schemas.
-
-.. note::
-
-    Be aware that face is still in early **beta testing**. Some component are still not ready and some functionalities may drasticaly change on the master branche.
-
-    Face is **not** ready for production purpose.
-
-
-
-
-
-Table of contents
-==================
-
-.. toctree::
-   :maxdepth: 4
-
-   installation/stand_alone
-   installation/generation
-   usage/core
-   usage/basics
-   usage/faceql
-
-
-
-
-
-
-The documentation is permanently moving. If you find some typos or obscures passages, you can correct them on github.
+We plan the first stable release of face for April 2015. Stay tuned !
