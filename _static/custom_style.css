@@ -1,0 +1,84 @@
+.multi-code-block>ul>li>div{
+    display: none;
+}
+
+.multi-code-block>ul{
+    margin-top: -1px;
+    padding: 0;
+}
+
+.multi-code-block>ul .highlight {
+    border-radius: 0;
+}
+.multi-code-block>ul>li>div.show{
+    display: block;
+}
+
+.multi-code-block .buttons em{
+    background: #DDD;
+    font-weight: bold;
+    font-style: normal;
+    font-family: arial;
+    padding: 4px 7px;
+    margin: 2px;
+    cursor: default;
+    display: inline-block;
+}
+
+.multi-code-block .buttons em:first-child{
+    margin-left: 1px;
+}
+
+.multi-code-block .buttons em:hover{
+    background: #777;
+    color: white;
+}
+
+.multi-code-block .buttons em.show{
+    background: #222;
+    color: #FFF;
+}
+.multi-code-block>ul{
+    list-style: none;
+}
+
+.multi-code-block .highlight{
+    border:0;
+}
+
+.multi-code-block .highlight pre{
+    padding: 12px 2px;
+}
+
+.highlight{
+    background: #222;
+}
+
+.highlight pre{
+    font-size: 12px;
+}
+
+.highlight .p{
+    color: #999;
+}
+
+.highlight .o{
+    color: #DDD;
+}
+.highlight .nv{
+    color:#2195C8;
+}
+.highlight .s2,
+.highlight .nf{
+    color: #BB9973;
+}
+
+.highlight .k{
+    font-weight: normal;
+    color: #BEBEBE;
+}
+
+
+.multi-code-block .highlight{
+    height: 100%;
+}

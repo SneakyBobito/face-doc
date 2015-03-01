@@ -18,14 +18,35 @@ import sys, os
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
 
+
+
+
+
 # -- General configuration -----------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
+
+# ADD EXTENTION PATH
+sys.path.append(os.path.abspath('_ext'))
+
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.todo']
+extensions = ['sphinx.ext.todo','sensio.sphinx.phpcode','face.sphinx.multicodeblock']
+
+
+# CONFIGURE EXTs
+primary_domain = 'php'
+
+# loading PhpLexer
+from sphinx.highlighting import lexers
+from pygments.lexers.web import PhpLexer
+
+# enable highlighting for PHP code not between ``<?php ... ?>`` by default
+lexers['php'] = PhpLexer(startinline=True)
+lexers['php-annotations'] = PhpLexer(startinline=True)
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
