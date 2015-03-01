@@ -1,5 +1,5 @@
 Face Core
-===========
+=========
 
 
 Although Face offers a generator to start your project, it is important to know how it works.
@@ -42,7 +42,7 @@ This is a basic Tree class with properties matching to the database table.
 
 
 Map your class with a table
-..........................
+...........................
 
 Now we have to say to face how to read the tree class : we will use the  trait ``EntityFaceTrait``, it's what allows face to access to your class.
 When you use this trait you will have to implement the method ``__getEntityFace``.

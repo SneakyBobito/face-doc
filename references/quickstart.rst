@@ -1,5 +1,5 @@
 Quick Start
-========
+===========
 
 Lets see how to use face. The below examples are just quick step to discover Face, they dont explain why or how it works.
 TODO : detailled section

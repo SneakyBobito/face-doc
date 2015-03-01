@@ -229,10 +229,10 @@ We will add some ``articles`` to the ``user``
         }
 
 
-Add a has many to many reference
---------------------------------
+Add a many to many relation
+---------------------------
 
-Some ``users`` have liked an ``article``
+Some ``users`` have liked some ``article``
 
 .. multi-code-block::
 

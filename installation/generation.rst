@@ -1,5 +1,5 @@
 Generation
-========
+==========
 
 
 The hardest work when you use an orm is to prepare the models that you have already prepared in your database.
@@ -24,7 +24,7 @@ We really encourage you to use Embryo. It will help to start your projects faste
     If you are using one of our framework skeleton, then embryo is already embeded into the skeleton and ready for use. Please refer to the appropriate section
 
 Install Embryo
------------
+--------------
 
 Embryo installation was tested under Debian. You will maybe have to adapt the following to your distro/OS.
 
@@ -40,7 +40,7 @@ Now download or clone the sources from github : https://github.com/laemons/face-
 
 
 Generate from database
------------
+----------------------
 
 Embryo is ready, now create a directory named `models` at the root of your application.
 

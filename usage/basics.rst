@@ -1,5 +1,5 @@
 Basic Operations
-===========
+================
 
 This section treats of the basical CRUD operations (create read update delete).
 
@@ -30,7 +30,7 @@ All the following examples include the ``$pdo`` variable to be already instantia
 
 
 Select
--------------
+------
 
 If your database and your models are ready, lets select some datas.
 
@@ -61,7 +61,7 @@ Simple Select
 
 
 Select with where clause
-.............
+........................
 
 Face offers a SQL like way to write where clauses. You just have to add a tilde [~] for Face to understand that you want him to treat the following expression.
 
@@ -85,7 +85,7 @@ Face offers a SQL like way to write where clauses. You just have to add a tilde 
 
 
 Select and Join entities
-.............
+........................
 
 Face uses path for navigation over the properties. All is explained in the :doc:`core section <../usage/core>`
 
@@ -114,7 +114,7 @@ You can join elements just by their path. Usually it will be the property name o
 
 
 Select + Join + Where
-.............
+.....................
 
 Once you have joined entities, you can do deeper where clauses. See :
 
