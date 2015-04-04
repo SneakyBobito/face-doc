@@ -10,4 +10,4 @@ Face is an ORM built under php5.4. It is aimed to be flexible and to provide pow
 
 In the latest weeks face has known a lot of refactoring. The doc was not anymore relevant and has been temporally closed until the new doc is written.
 
-We plan the first stable release of face for April 2015. Stay tuned !
+We plan the first stable release of face for mai or june 2015. Stay tuned !
